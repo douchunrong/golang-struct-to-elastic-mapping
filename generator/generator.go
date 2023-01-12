@@ -21,11 +21,11 @@ func NewGenerator(kindConverter *converter.KindConverter) *Generator {
 
 var DefaultGenerator = NewGenerator(converter.DefaultKindConverter())
 
-func Generate(i any) ([]byte, error) {
+func Generate(i interface{}) ([]byte, error) {
 	return DefaultGenerator.Generate(i)
 }
 
-func (g *Generator) Generate(i any) ([]byte, error) {
+func (g *Generator) Generate(i interface{}) ([]byte, error) {
 	properties, err := g.properties(reflect.ValueOf(i).Type().Elem())
 
 	if err != nil {
