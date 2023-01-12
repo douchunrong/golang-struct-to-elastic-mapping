@@ -1,4 +1,4 @@
-module github.com/YaroslavPodorvanov/golang-struct-to-elastic-mapping
+module github.com/douchunrong/golang-struct-to-elastic-mapping
 
 go 1.18
 

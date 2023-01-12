@@ -3,7 +3,7 @@ package generator
 import (
 	"encoding/json"
 
-	"github.com/YaroslavPodorvanov/golang-struct-to-elastic-mapping/mapping"
+	"github.com/douchunrong/golang-struct-to-elastic-mapping/mapping"
 )
 
 func wrap(properties []byte) ([]byte, error) {

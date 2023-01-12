@@ -7,8 +7,8 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/YaroslavPodorvanov/golang-struct-to-elastic-mapping/converter"
-	"github.com/YaroslavPodorvanov/golang-struct-to-elastic-mapping/mapping"
+	"github.com/douchunrong/golang-struct-to-elastic-mapping/converter"
+	"github.com/douchunrong/golang-struct-to-elastic-mapping/mapping"
 )
 
 type Generator struct {

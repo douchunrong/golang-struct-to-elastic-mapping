@@ -101,7 +101,7 @@ package main
 import (
 	"testing"
 
-	"github.com/YaroslavPodorvanov/golang-struct-to-elastic-mapping/generator"
+	"github.com/douchunrong/golang-struct-to-elastic-mapping/generator"
 
 	"github.com/stretchr/testify/require"
 )
